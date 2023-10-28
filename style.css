@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+body{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0db6b2dd-ca62-47fa-ab8b-a71ea05fa305/d31hjpt-3f32b2e3-d51c-4fb9-85c0-597225f17669.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkYjZiMmRkLWNhNjItNDdmYS1hYjhiLWE3MWVhMDVmYTMwNVwvZDMxaGpwdC0zZjMyYjJlMy1kNTFjLTRmYjktODVjMC01OTcyMjVmMTc2NjkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.z3UdVZDhdvjIptjLkEKVXlZSMtmjcY6acU0Qipr71SI);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,0.8827906162464986) 35%, rgba(0,212,255,1) 100%);
+    width: 1100px;
+    height: 860px;
+    border: 2px solid black;
+    position: relative;
+    margin: 50px auto;
+    border-radius: 50%;
+}
+
+input{
+    position: absolute;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 900;
+    background-color: aqua;
+    color: black;
+    padding: 20px ;
+}
+input::placeholder{
+    text-align: center;
+    color: brown;
+    font-size: 18px;
+}
+
+#left_1{
+    padding: 40px;
+    top: 5px;
+    right: 41%;
+}
+#left_2{
+    padding: 40px;
+    top: 70px;
+    right: 60%;
+}
+#left_3{
+    padding: 40px;
+    top: 178px;
+    right: 73%;
+}
+#left_4{
+    padding: 40px;
+    top: 310px;
+    right: 79%;
+}
+#left_5{
+    padding: 40px;
+    top: 438px;
+    right: 79%;
+}
+#left_6{
+    padding: 40px;
+    top: 578px;
+    right: 71%;
+}
+#right_1{
+    padding: 40px;
+    top: 67px;
+    right: 22%;
+}
+#right_2{
+    padding: 40px;
+    top: 170px;
+    right: 9%;
+}
+#right_3{
+    padding: 40px;
+    top: 313px;
+    right: 5%;
+}
+#right_4{
+    padding: 40px;
+    top: 438px;
+    right: 3%;
+}
+#right_5{
+    padding: 40px;
+    top: 569px;
+    right: 9%;
+}
+
+
+button{
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 129px;
+    background-color: aqua;
+    right: 430px;
+    top: 640px;
+    font-size: 20px;
+    font-weight: 900;
+    color: brown;
+}
+#Answer{
+    font-size: 30px;
+    position: absolute;
+    top: 500px;
+    right: 50%;
+    
+}
+#quality{
+    font-size: 30px;
+    position: absolute;
+    top: 560px;
+    right: 41%;
+
+}
